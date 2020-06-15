@@ -1,0 +1,154 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#carousel{
+    background-color: #1d2124!important;
+    height: auto;
+}
+/* 
+///////////////////////////// paralax */
+
+#paralax{
+    background-image: url("../img/infinix\ 1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.paralxIN{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.paralxIN h2{
+    font-size: 42px;
+}
+.paralxIN h1{
+    font-size: 72px;
+}
+
+/* end paralax //////////////////////////////////////// */
+/* 
+//////////////////////////////service section */
+
+.ourServices{
+    height: 700px;
+}
+.ourServices h1{
+    font-size: 50px ;
+    font-weight: bold;
+}
+
+.rowSetting{
+    margin: 80px 0px !important;
+}
+
+.rowSetting p{
+    margin: 20px 0;
+    line-height: 1.8em;
+}
+.rowSetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.imgSetting{
+    padding-top: 23px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+/* end service section///////////////////// */
+
+
+/* 
+///////////////////////portfolio */
+.portfolio h1{
+    font-size: 50px ;
+    font-weight: bold;
+}
+.portfolio p{
+    margin: 20px 0;
+    line-height: 1.8em;
+}
+/* //////////////////////////////portfolio end */
+
+/* team start/////////////////////////////// */
+.ourTeams{
+    height: 700px;
+    padding: 100px 0 60px;
+    width: 100%;
+}
+.ourTeams h1{
+    font-size: 50px ;
+    font-weight: bold;
+}
+.team-setting{
+    margin-top: 70px!important;
+}
+/* end team section//////////// */
+
+/* media query start */
+
+/* large */
+@media(min-width: 992px){
+
+}
+
+/* medium */
+@media(min-width: 768px) and (max-width: 991px){
+    .ourServices{
+        height: 750px;
+    }
+    .ourTeams{
+        height: 750px;
+    }
+}
+
+/* small */
+
+@media(min-width: 575px) and (max-width: 767px){
+    .ourServices{
+        height: 900px;
+    }
+    .ourTeams{
+        height: 1300px;
+    }
+}
+
+/* portrait mode */
+
+@media(min-width: 480px) and (max-width: 574px){
+    .paralxIN h2{
+        font-size: 32px;
+    }
+    .paralxIN h1{
+        font-size: 62px;
+    }
+    
+    .ourServices{
+        height: 1400px;
+    }
+    .ourTeams{
+        height: 1400px;
+    }
+}
+
+/* extra small */
+
+@media(max-width: 479px){
+    .paralxIN h2{
+        font-size: 22px;
+    }
+    .paralxIN h1{
+        font-size: 52px;
+    }
+    
+    .ourServices{
+        height: 1400px;
+    }
+    .ourTeams{
+        height: 1400px;
+    }
+    
+}
