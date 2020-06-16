@@ -88,6 +88,15 @@ body{
 }
 /* end team section//////////// */
 
+/* contact us  */
+
+.contact {
+    width: 100%;
+    padding: 100px 0 60px;
+}
+
+/* ending contact us */
+
 /* media query start */
 
 /* large */
